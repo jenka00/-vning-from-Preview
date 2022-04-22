@@ -1,0 +1,92 @@
+/*start main roles*/
+body{
+    height: 40000px;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+/* End Main Roles */
+/* Start header */
+.header .slider {
+    background-image: url(/Image/varberg.jpg);
+    background-size: cover;
+    height: 800px;
+}
+.header .slider .intro {
+    padding-top: 350px;
+    height: 600px;
+    text-align: center;
+    color: black;
+}
+.header .slider .intro h1 {
+    margin: 0 auto;
+    font-size:  50px;
+    width: 600px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 10px 30px;
+}
+.header .slider .intro button {
+    background: none;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.header .navbar {
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+.header .navbar h2 span {
+    color: aquamarine;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navbar ul li.active a, .header .navbar ul li a:hover{
+    color: #21a265;
+}
+/* End Header*/
+
+/* Start Features */
+
+.features{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.features .feat {
+    float: left;
+    width: 33.33%;
+    height: 150px;
+}
+.features .feat h3{
+    color: aquamarine;
+}
+.features .feat p{
+    line-height: 1.5;
+    color: #b8b8b8;
+    padding-left: 10px;
+}
